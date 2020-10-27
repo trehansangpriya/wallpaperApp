@@ -11,6 +11,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	background-color: rgb(15, 15, 15);
 }
 h2,
 p {
@@ -18,7 +19,7 @@ p {
 }
 
 .wallpaper {
-	width: 100%;
+	width: 50%;
 	height: 50vh;
 	background-image: url('https://source.unsplash.com/1600x900/?nature,water');
 	background-attachment: fixed;
