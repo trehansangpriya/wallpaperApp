@@ -12,6 +12,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	background-color: rgb(15, 15, 15);
+	color: white;
 }
 h2,
 p {
