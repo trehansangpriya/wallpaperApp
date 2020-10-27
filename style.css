@@ -5,4 +5,24 @@
 }
 body {
 	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+h2,
+p {
+	padding: 10px;
+}
+
+.wallpaper {
+	width: 100%;
+	height: 50vh;
+	background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
